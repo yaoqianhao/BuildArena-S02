@@ -1,0 +1,20 @@
+{
+ "schema": "buildarena.submission.build_history_full.v1",
+ "task": "s02_rocket_orbit_return",
+ "status": "missing_source",
+ "exported_at": "2026-09-28T18:18:42",
+ "operation_count": null,
+ "missing_reason": "全仓检索未发现 s02_rocket_orbit_return 的完整构建历史快照（含查询/回滚/移除等全量 op 的记录）。已排查 E:\\\\BuildArena-2.0\\\\.local、E:\\\\BuildArena-2.0\\\\datacache\\\\manual_cases\\\\20260928_174442_557188_s02_rocket_orbit_return、E:\\\\BuildArena-2.0\\\\temp、E:\\\\BuildArena-2.0\\\\output 均无 history_snapshot*.json；MCP 会话日志仅含本次提交包整理会话，未发现原始 s02 构建会话的 BuildArena 工具调用记录。未编造任何 op；可用史料为 machine.json 的 52 条有效操作历史（已导出至 build_history.json）与官方 Final Mission 遥测/任务汇总。",
+ "searched_locations": [
+  "E:\\\\BuildArena-2.0\\\\.local",
+  "E:\\\\BuildArena-2.0\\\\datacache\\\\manual_cases\\\\20260928_174442_557188_s02_rocket_orbit_return",
+  "E:\\\\BuildArena-2.0\\\\temp",
+  "E:\\\\BuildArena-2.0\\\\output",
+  "MCP conversation logs (BuildArena tool call records)"
+ ],
+ "available_sources": {
+  "validated_build_history": "control/examples/s02_rocket_orbit_return/machine.json (52 ops)",
+  "official_telemetry": "datacache/manual_cases/20260928_174442_557188_s02_rocket_orbit_return/telemetry.csv (571726 lines, single Final Mission)",
+  "mission_summary": "datacache/manual_cases/20260928_174442_557188_s02_rocket_orbit_return/mission_summary.json"
+ }
+}
